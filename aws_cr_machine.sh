@@ -7,8 +7,8 @@ docker-machine create \
 --amazonec2-zone a \
 --amazonec2-vpc-id vpc-4fb7cd26 \
 --amazonec2-subnet-id subnet-2f481d46 \
---amazonec2-access-key AKIAIR5K3623PTFJO27A \
---amazonec2-secret-key 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 \
+--amazonec2-access-key AKIAIR*** \
+--amazonec2-secret-key imZ***\
 --amazonec2-open-port 1723 \
 --amazonec2-userdata userdata.sh \
 $aws_comp 
